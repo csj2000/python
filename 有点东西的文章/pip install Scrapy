@@ -1,1 +1,27 @@
+scrapy安装方法
+一，如果初学python，并且你的python也是使用Anaconda安装的，哪么使用Anaconda是你最快捷的办法。
+1，进入Adaconda官网：https://www.anaconda.com/download/，点击下载对应版本。
+2，安装完成之后在cmd命令框中输入：conda install scrapy
+3，OK，scrapy安装成功。
+如果想使用pip命令安装，则必须手动安装几个依赖库，下面介绍具体步骤。
+1，wheel
+在cmd中输入：pip install wheel
+2，lxml
+进入官网：http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml ，对面服务器响应可能比较慢，耐心等待，进入网站后找到 lxml-3.7.3-cp36-cp36m win amd64.whl ,点击下载（这里36是对应的python3.6版本，如果不是python3.6就找自己对应的版本下载，否则会报错）。
+下载完成右击文件，选择属性，再选择安全，复制文件路径。 在cmd中输入：pip install 文件路径。
+3，pyOpenSSL
+进入官网：https://pypi.org/project/pyOpenSSL/#files ,找到 pyOpenSSL-18.0.0-py2.py3-none-any.whl ，点击下载。
+下载完成右击文件，选择属性，再选择安全，复制文件路径。 在cmd中输入：pip install 文件路径。
+4，Twisted
+进入官网：http://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted ，找到 twisted-17.1.0-cp36-cp36m win amd64.whl ，（这里同样找到对应自己的python版本下载）。
+下载完成右击文件，选择属性，再选择安全，复制文件路径。 在cmd中输入：pip install 文件路径。
+5，pywin32
+进如官网：https://sourceforge.net/projects/pywin32/files/pywin32/Build%20221/ ，找到对应版本，点击之后自动跳转到下载页面下载。
+下载完成之后打开文件，下一步下一步完成安装。
+6，scrapy
+在cmd中输入：pip install scrapy 即可完成scrapy的安装。
 
+文章最后发布于: 2018-07-30 08:51:41
+————————————————
+版权声明：本文为CSDN博主「wumxiaozhu」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wumxiaozhu/article/details/81255343
